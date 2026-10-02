@@ -2,7 +2,7 @@
 
 This directory is reserved for the public synthetic TechTurn demo of the Environment Layer Report.
 
-Customer-generated reports are intentionally not included.
+The production platform can generate much larger environment reports, but customer-generated reports are intentionally not included in this repository.
 
 Planned demo identity:
 
