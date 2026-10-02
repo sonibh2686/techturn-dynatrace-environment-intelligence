@@ -1,0 +1,22 @@
+techturn-dynatrace-environment-intelligence/
+├── README.md
+├── SECURITY.md
+├── CONTRIBUTING.md
+├── .gitignore
+├── screenshots/
+│   ├── README.md
+│   └── 01-10 sanitized PNG screenshots
+├── docs/
+│   ├── index.html
+│   ├── architecture.html
+│   ├── demo.html
+│   └── assets/
+│       └── css/
+│           └── site.css
+├── demo/
+│   └── environment-layer-report/
+│       └── README.md
+├── architecture/
+│   └── README.md
+└── examples/
+    └── demo-data-model.md
