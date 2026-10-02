@@ -1,16 +1,62 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Architecture | TechTurn Dynatrace Environment Intelligence</title><link rel="stylesheet" href="assets/css/site.css"></head>
-<body><main class="wrap"><h1>Architecture</h1><pre>Dynatrace APIs
-  ↓
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Architecture | TechTurn Dynatrace Environment Intelligence</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">TT</span><span>TechTurn</span></a>
+    <nav><a href="index.html">Home</a><a href="demo.html">Demo</a></nav>
+  </div>
+</header>
+<main>
+  <section class="hero-section">
+    <div class="wrap">
+      <p class="eyebrow light">PLATFORM ARCHITECTURE</p>
+      <h1>Read-only discovery with evidence-first analysis</h1>
+      <p class="lead">A simple architecture designed to preserve traceability from Dynatrace source data to normalized evidence, assessment findings and reports.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <pre>Dynatrace APIs
+    │
+    ▼
 Read-only Connector
-  ↓
+    │
+    ▼
 Discovery Engine
-  ↓
+    │
+    ├── Entities
+    ├── Tags
+    ├── Properties
+    ├── Management Zones
+    └── Relationships
+    │
+    ▼
 Normalized Evidence Store
-  ↓
+    │
+    ▼
 Classification & Layer Model
-  ↓
+    │
+    ▼
 Assessment Engine
-  ↓
-Report Generator</pre><p><a href="index.html">Back to home</a></p></main></body></html>
+    │
+    ▼
+Report Generator
+    │
+    ├── Executive Reports
+    ├── Inventory Reports
+    ├── Evidence Reports
+    ├── Remediation Reports
+    └── Environment Layer Report</pre>
+      <div class="actions"><a class="button" href="index.html">Back to Platform</a></div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
