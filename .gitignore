@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*token*
+*secret*
+
+# Generated customer data - NEVER COMMIT
+outputs/
+raw/
+customer-data/
+private/
+*.har
+*.log
+
+# Large generated reports
+*.zip
+*.tar
+*.gz
