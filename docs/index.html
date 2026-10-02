@@ -3,48 +3,249 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TechTurn Dynatrace Environment Intelligence Platform — discovery, topology, classification, assessment and reporting for complex Dynatrace environments.">
   <title>TechTurn Dynatrace Environment Intelligence Platform</title>
   <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
-  <main class="wrap">
-    <section class="hero">
-      <p class="eyebrow">TechTurn</p>
-      <h1>Dynatrace Environment Intelligence Platform</h1>
-      <p class="lead">Discover, classify, map, assess, and document complex Dynatrace environments.</p>
-      <div class="actions">
-        <a class="button" href="#platform">Explore Platform</a>
-        <a class="button secondary" href="demo.html">Interactive Demo</a>
+  <header class="topbar">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">TT</span>
+        <span>TechTurn</span>
+      </a>
+      <nav>
+        <a href="#platform">Platform</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#report">Layer Report</a>
+        <a href="#use-cases">Use Cases</a>
+        <a href="architecture.html">Architecture</a>
+        <a class="nav-cta" href="demo.html">Demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">TECHTURN OBSERVABILITY ENGINEERING</p>
+          <h1>Dynatrace Environment Intelligence Platform</h1>
+          <p class="lead">Discover, classify, map, assess, and document complex Dynatrace environments from one read-only intelligence platform.</p>
+          <div class="actions">
+            <a class="button" href="#platform">Explore Platform</a>
+            <a class="button secondary" href="demo.html">Explore Demo</a>
+            <a class="text-link" href="https://github.com/sonibh2686/techturn-dynatrace-environment-intelligence">View GitHub →</a>
+          </div>
+          <div class="hero-pills">
+            <span>Read-only discovery</span>
+            <span>Topology intelligence</span>
+            <span>Assessment</span>
+            <span>Reporting</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img src="https://raw.githubusercontent.com/sonibh2686/techturn-dynatrace-environment-intelligence/main/screenshots/03-environment-discovery-completed.png" alt="Sanitized TechTurn environment discovery dashboard">
+        </div>
       </div>
     </section>
 
-    <section id="platform">
-      <h2>Connect → Discover → Model → Classify → Map → Assess → Report</h2>
-      <p>This public showcase uses synthetic TechTurn demo data only.</p>
-      <img src="https://raw.githubusercontent.com/sonibh2686/techturn-dynatrace-environment-intelligence/main/screenshots/10-environment-layer-report.png" alt="Sanitized Environment Layer Report screenshot">
-    </section>
-
-    <section>
-      <h2>Key capabilities</h2>
-      <div class="grid">
-        <article><h3>Environment Discovery</h3><p>Discover entities, tags, properties, management zones and relationships.</p></article>
-        <article><h3>Layer Inventory</h3><p>Organize telemetry around environment, application, business service, ownership and criticality.</p></article>
-        <article><h3>Topology Intelligence</h3><p>Preserve incoming and outgoing entity relationships for context and dependency analysis.</p></article>
-        <article><h3>Assessment</h3><p>Identify coverage, classification, tagging and ownership gaps with evidence.</p></article>
-        <article><h3>Reporting</h3><p>Generate executive, inventory, remediation and interactive environment reports.</p></article>
-        <article><h3>Public Demo Safety</h3><p>Use synthetic TechTurn data rather than customer-generated artifacts.</p></article>
+    <section id="platform" class="section">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">PLATFORM FLOW</p>
+          <h2>From raw Dynatrace inventory to environment intelligence</h2>
+          <p>The platform builds a persistent model of entities, metadata, ownership, and relationships so large environments can be reviewed systematically.</p>
+        </div>
+        <div class="flow">
+          <div><strong>1</strong><span>Connect</span></div>
+          <div><strong>2</strong><span>Discover</span></div>
+          <div><strong>3</strong><span>Model</span></div>
+          <div><strong>4</strong><span>Classify</span></div>
+          <div><strong>5</strong><span>Map</span></div>
+          <div><strong>6</strong><span>Assess</span></div>
+          <div><strong>7</strong><span>Report</span></div>
+        </div>
       </div>
     </section>
 
-    <section>
-      <h2>Environment Layer Report</h2>
-      <p>A navigable point-in-time representation of environment hierarchy, entities, metadata, ownership and topology relationships.</p>
-      <img src="https://raw.githubusercontent.com/sonibh2686/techturn-dynatrace-environment-intelligence/main/screenshots/05-entity-topology-drilldown.png" alt="Sanitized topology drill-down screenshot">
+    <section id="capabilities" class="section alt">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">KEY CAPABILITIES</p>
+          <h2>One model for discovery, governance and migration readiness</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Environment Discovery</h3>
+            <p>Discover hosts, process groups, services, instances, tags, properties, management zones, and relationships.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Layer Inventory</h3>
+            <p>Organize entities by environment, application/workload, business service, service offering, ownership, region, and criticality.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Topology Intelligence</h3>
+            <p>Preserve incoming and outgoing entity relationships so architecture and dependency analysis remain explainable.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Assessment</h3>
+            <p>Identify missing ownership, incomplete classification, stale entities, tagging gaps, and readiness findings with evidence.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Evidence Analysis</h3>
+            <p>Trace findings back to normalized datasets, entity properties, tags, schemas, and relationship evidence.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Reporting</h3>
+            <p>Generate executive, inventory, remediation, comparison, and environment-layer reports for different audiences.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <footer>
-      <p>Independent TechTurn technical showcase. Not an official Dynatrace product.</p>
-    </footer>
+    <section class="section">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">DISCOVERY & CLASSIFICATION</p>
+          <h2>Understand what exists before changing anything</h2>
+          <p>Large Dynatrace environments often contain thousands of entities with uneven tagging, ownership, and classification. The platform makes those gaps visible before migration or optimization work begins.</p>
+          <ul class="check-list">
+            <li>Entity and schema discovery</li>
+            <li>Tag and property inventory</li>
+            <li>Ownership and criticality coverage</li>
+            <li>Business-service and service-offering mapping</li>
+          </ul>
+        </div>
+        <div class="screenshot-card">
+          <img src="https://raw.githubusercontent.com/sonibh2686/techturn-dynatrace-environment-intelligence/main/screenshots/04-layer-inventory.png" alt="Sanitized TechTurn layer inventory">
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark">
+      <div class="wrap split reverse">
+        <div class="screenshot-card dark-card">
+          <img src="https://raw.githubusercontent.com/sonibh2686/techturn-dynatrace-environment-intelligence/main/screenshots/05-entity-topology-drilldown.png" alt="Sanitized topology drill-down">
+        </div>
+        <div>
+          <p class="eyebrow light">TOPOLOGY INTELLIGENCE</p>
+          <h2>Inspect every entity in context</h2>
+          <p>Drill into hosts, services, process groups, and related entities while preserving the metadata and topology needed to explain how the environment is connected.</p>
+          <ul class="check-list light-list">
+            <li>Entity context and properties</li>
+            <li>Related hosts, services and process groups</li>
+            <li>Incoming and outgoing relationships</li>
+            <li>Classification source and evidence</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">ASSESSMENT</p>
+          <h2>Turn discovery into prioritized findings</h2>
+          <p>Assessment converts inventory quality into actionable findings, helping teams identify what should be fixed before migration, governance, or monitoring-standardization work continues.</p>
+          <div class="mini-stats">
+            <div><strong>Ownership</strong><span>coverage</span></div>
+            <div><strong>Tagging</strong><span>quality</span></div>
+            <div><strong>Classification</strong><span>readiness</span></div>
+          </div>
+        </div>
+        <div class="screenshot-card">
+          <img src="https://raw.githubusercontent.com/sonibh2686/techturn-dynatrace-environment-intelligence/main/screenshots/08-assessment.png" alt="Sanitized assessment dashboard">
+        </div>
+      </div>
+    </section>
+
+    <section id="report" class="section report-section">
+      <div class="wrap">
+        <div class="section-heading center">
+          <p class="eyebrow">FLAGSHIP CAPABILITY</p>
+          <h2>Interactive Environment Layer Report</h2>
+          <p>A searchable point-in-time representation of the Dynatrace environment, connecting business context with runtime topology.</p>
+        </div>
+        <div class="report-path">
+          <span>Environment</span><b>→</b>
+          <span>Application</span><b>→</b>
+          <span>Business Service</span><b>→</b>
+          <span>Service Offering</span><b>→</b>
+          <span>Runtime Entities</span>
+        </div>
+        <div class="screenshot-card report-shot">
+          <img src="https://raw.githubusercontent.com/sonibh2686/techturn-dynatrace-environment-intelligence/main/screenshots/10-environment-layer-report.png" alt="Sanitized Environment Layer Report">
+        </div>
+        <div class="report-features">
+          <div><strong>Hierarchy</strong><span>Environment to runtime entity</span></div>
+          <div><strong>Metadata</strong><span>Tags, properties, ownership</span></div>
+          <div><strong>Relationships</strong><span>Incoming and outgoing topology</span></div>
+          <div><strong>Evidence</strong><span>Persistent normalized output</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap split">
+        <div class="screenshot-card">
+          <img src="https://raw.githubusercontent.com/sonibh2686/techturn-dynatrace-environment-intelligence/main/screenshots/09-reports.png" alt="Sanitized report catalog">
+        </div>
+        <div>
+          <p class="eyebrow">REPORTING</p>
+          <h2>Different views for different audiences</h2>
+          <p>Use one normalized evidence layer to support executive reviews, application inventories, classification remediation, tag analysis, migration assessments, and architecture documentation.</p>
+          <a class="button" href="demo.html">View Demo Preview</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="use-cases" class="section">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">USE CASES</p>
+          <h2>Designed for observability transformation work</h2>
+        </div>
+        <div class="use-grid">
+          <div>Dynatrace environment discovery</div>
+          <div>AppDynamics → Dynatrace migration analysis</div>
+          <div>Observability governance</div>
+          <div>Ownership and criticality validation</div>
+          <div>Topology and dependency analysis</div>
+          <div>Metadata and tagging review</div>
+          <div>Monitoring standardization</div>
+          <div>Environment documentation</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="wrap cta">
+        <div>
+          <p class="eyebrow light">PUBLIC SHOWCASE</p>
+          <h2>Explore the platform and technical architecture</h2>
+          <p>All public examples use synthetic TechTurn demo data. No customer-generated environment report is included.</p>
+        </div>
+        <div class="actions">
+          <a class="button light-button" href="demo.html">Explore Demo</a>
+          <a class="button ghost-button" href="architecture.html">View Architecture</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <strong>TechTurn IT Services Inc.</strong>
+        <p>Observability engineering, migration tooling, monitoring optimization and automation.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/sonibh2686/techturn-dynatrace-environment-intelligence">GitHub</a>
+        <a href="mailto:bsoni@techturn.ca">bsoni@techturn.ca</a>
+      </div>
+    </div>
+    <div class="wrap disclaimer">Independent TechTurn technical showcase. Not an official Dynatrace product.</div>
+  </footer>
 </body>
 </html>
