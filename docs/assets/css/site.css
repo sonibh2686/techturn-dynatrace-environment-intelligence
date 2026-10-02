@@ -107,3 +107,18 @@ pre{overflow:auto;background:#111827;color:#f9fafb;padding:24px;border-radius:10
   .feature-grid,.report-features,.use-grid,.mini-stats{grid-template-columns:1fr}
   .flow{grid-template-columns:1fr}
 }
+
+/* Public showcase safety crop: hides the lower source-data rows from the report screenshot. */
+.cropped-report-shot{
+  width:100%;
+  aspect-ratio:1717 / 760;
+  overflow:hidden;
+  border-radius:10px;
+  background:#fff;
+}
+.cropped-report-shot img{
+  width:100%;
+  height:auto;
+  display:block;
+  border-radius:10px;
+}
